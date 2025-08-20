@@ -1,0 +1,7 @@
+{
+  "crons": [
+    { "path": "/api/wti", "schedule": "0 */6 * * *" },
+    { "path": "/api/stocks", "schedule": "0 */1 * * *" },
+    { "path": "/api/ercot", "schedule": "*/15 * * * *" }
+  ]
+}

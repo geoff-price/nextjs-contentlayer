@@ -1,3 +1,35 @@
+import type { Metadata } from "next";
+import "./globals.css";
+import { Inter } from "next/font/google";
+
+const inter = Inter({ subsets: ["latin"] });
+
+export const metadata: Metadata = {
+  title: "WattsB4Bots — Energy × AI",
+  description:
+    "The hidden economics of energy and intelligence. Research on data centers, grids, and the AI power race.",
+  metadataBase: new URL("https://wattsb4bots.com"),
+  openGraph: {
+    title: "WattsB4Bots — Energy × AI",
+    description:
+      "Research and foresight on the grid, the cloud, and the coming load.",
+    url: "https://wattsb4bots.com",
+    images: ["/brand/og-wattsb4bots.jpg"],
+  },
+  icons: {
+    icon: "/favicon.ico",
+  },
+};
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
+  return (
+    <html lang="en" className="h-full">
+      <body className={`${inter.className} bg-[#0B0D10] text-zinc-100 h-full`}>
+        {children}
+      </body>
+    </html>
+  );
+}
 import Link from "next/link"
 import "./globals.css"
 import { Inter } from "next/font/google"
