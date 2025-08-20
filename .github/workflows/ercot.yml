@@ -1,0 +1,15 @@
+name: ERCOT 15min
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+
+jobs:
+  call:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Call ERCOT endpoint
+        run: |
+          curl -fsS "$DEPLOY_URL/api/ercot" || exit 1
+        env:
+          DEPLOY_URL: ${{ secrets.DEPLOY_URL }}
