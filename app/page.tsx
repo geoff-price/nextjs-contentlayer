@@ -10,7 +10,7 @@ export default function Home() {
         <div className="flex items-center gap-3">
           <div className="relative h-9 w-9">
             <Image
-              src="/brand/wattsb4bots-mark.png"
+              src="/brand/wattsb4bots-mark.jpg"
               alt="WattsB4Bots"
               fill
               className="object-contain"
@@ -79,7 +79,7 @@ export default function Home() {
           <div className="flex items-center gap-3">
             <div className="relative h-10 w-10">
               <Image
-                src="/brand/wattsb4bots-mark-glow.png"
+                src="/brand/wattsb4bots-mark-glow.jpg"
                 alt="Energy × AI"
                 fill
                 className="object-contain"
