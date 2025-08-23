@@ -10,7 +10,7 @@ export default function Home() {
         <div className="flex items-center gap-3">
           <div className="relative h-9 w-9">
             <Image
-              src="/brand/wattsb4bots-mark.png"
+              src="/brand/wattsb4bots-mark.jpg"
               alt="WattsB4Bots"
               fill
               className="object-contain"
@@ -72,7 +72,7 @@ export default function Home() {
         <div className="rounded-2xl border border-zinc-800 bg-[#0E1218] p-6">
           <div className="flex items-center gap-3">
             <div className="relative h-10 w-10">
-              <Image src="/brand/wattsb4bots-mark-glow.png" alt="Energy × AI" fill className="object-contain" />
+              <Image src="/brand/wattsb4bots-mark-glow.jpg" alt="Energy × AI" fill className="object-contain" />
             </div>
             <h2 className="text-xl font-semibold">Energy × AI Brief</h2>
           </div>
@@ -131,3 +131,5 @@ export default function Home() {
     </main>
   )
 }
+
+set PORT=3001&&pnpm dev
