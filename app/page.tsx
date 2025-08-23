@@ -50,7 +50,7 @@ export default function Home() {
 
           <div className="mt-8 flex flex-wrap gap-3">
             <a
-              href="https://YOUR-SUBSTACK-HANDLE.substack.com"
+              href="https://wattsb4bots.substack.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center rounded-xl bg-[#39FF14] px-5 py-3 font-semibold text-black hover:brightness-110"
@@ -81,7 +81,7 @@ export default function Home() {
           </p>
 
           <div className="mt-5 rounded-xl border border-zinc-700 bg-black/30 p-2">
-            <iframe src="https://YOUR-SUBSTACK-HANDLE.substack.com/embed" className="h-44 w-full rounded-lg" style={{ border: 0 }} scrolling="no" />
+            <iframe src="https://wattsb4bots.substack.com/embed" className="h-44 w-full rounded-lg" style={{ border: 0 }} scrolling="no" />
           </div>
         </div>
       </section>
@@ -119,7 +119,7 @@ export default function Home() {
         <div className="mx-auto max-w-6xl px-6 py-8 text-sm text-zinc-400 flex items-center justify-between">
           <span>© {new Date().getFullYear()} WattsB4Bots</span>
           <div className="flex gap-4">
-            <a href="https://YOUR-SUBSTACK-HANDLE.substack.com" target="_blank" className="hover:text-zinc-200">
+            <a href="https://wattsb4bots.substack.com/" target="_blank" className="hover:text-zinc-200">
               Substack
             </a>
             <Link href="/about" className="hover:text-zinc-200">
